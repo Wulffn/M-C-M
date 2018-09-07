@@ -38,7 +38,7 @@ public final class PersonGenerator {
         int third = rnd.nextInt(100);
         int forth = rnd.nextInt(100);
         String mark = "sigerHej";
-        return String.format("%02d-%04d-%02d-%02d", first, second, third, forth);
+        return String.format("%02d%04d-%02d%02d", first, second, third, forth);
     }
 
 
